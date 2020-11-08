@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="main1.css">
+    <link rel="stylesheet" type="text/css" href="mainfooter.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Currency Convertor</h1>
+        </div>
+        <div class="date"></div>
+        <ul class="currencies">
+            <li class="currency base-currency" id="USD">
+                <img id="primary-currency-image" src="http://www.geonames.org/flags/l/us.gif" class="flag">
+                <div class="info">
+                    <p class="input"><span id="primary-currency-symbol" class="currency-symbol">&#36;</span><input id="primary-currency-value"  placeholder="0.0000"></p>
+                    <p class="currency-name" id="currency-name-primary">USD - US Dollar</p>
+                    <p id="primary-rate" class="base-currency-rate">1 USD = 1 USD</p>
+                    <p class="drop"><i class="fa fa-caret-down"></i></p>
+                    <ul class="add-currency-list">
+                    </ul>
+                </div>
+            </li>
+            <div class="middle">
+                <span id="exchange"><i class="fa fa-sort"></i></span>
+            </div>
+            <li class="currency" id="JPY">
+                <img id="secondary-currency-image" src="http://www.geonames.org/flags/l/jp.gif" class="flag">
+                <div class="info">
+                    <p class="input"><span id="secondary-currency-symbol" class="currency-symbol">&#165;</span><input id="secondary-currency-value" placeholder="0.0000"></p>
+                    <p class="currency-name" id="currency-name-secondary">JPY - Japanese Yen</p>
+                    <p id="secondary-rate" class="base-currency-rate">1 USD = 111.0401 JPY</p>
+                    <p class="drops"><i class="fa fa-caret-down"></i></p>
+                    <ul class="add-currency-list1">
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <button id="convert" class="add-currency-btn">CONVERT</button>
+    </div>
+    <div class="containerbottom">
+        <div class="datebottom"></div>
+        <ul class="currenciesbottom"></ul>
+        <button class="add-currency-btnbottom"></i>Add Currency</button>
+        <ul class="add-currency-listbottom"></ul>
+    </div>
+    <div class="footer">
+  <div class="inner-footer">
+
+    <div class="footer-items">
+      <h1>CurrExchange</h1>
+      <p>Description of any product or motto of the company.</p>
+    </div>
+
+    <div class="footer-items">
+      <h3>Quick Links</h3>
+      <div class="border1"></div> 
+        <dt>
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>Search</li></a>
+          <a href="#"><li>Contact</li></a>
+          <a href="#"><li>About</li></a>
+        </dt>
+    </div>
+
+    <div class="footer-items">
+      <h3>Money</h3>
+      <div class="border1"></div>  
+        <dt>
+          <a href="#"><li>Indian</li></a>
+          <a href="#"><li>Chinese</li></a>
+          <a href="#"><li>Mexican</li></a>
+          <a href="#"><li>Italian</li></a>
+        </dt>
+    </div>
+
+    <div class="footer-items">
+      <h3>Contact us</h3>
+      <div class="border1"></div>
+        <dt>
+          <li><i class="fa fa-map-marker" aria-hidden="true"></i>XYZ, abc</li>
+          <li><i class="fa fa-phone" aria-hidden="true"></i>123456789</li>
+          <li><i class="fa fa-envelope" aria-hidden="true"></i>xyz@gmail.com</li>
+        </dt> 
+      
+        <div class="social-media">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-google-plus-square"></i></a>
+        </div> 
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    Copyright &copy; CurrExchange.
+  </div>
+</div>
+    <script src="main.js"></script>
+    <script src="main1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
