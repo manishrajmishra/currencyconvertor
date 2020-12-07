@@ -94,7 +94,7 @@ ul.currencies li .drop{
   color:#00b386;
   position: absolute;
   bottom: 0;
-  right: -24px;
+  right: -5px;
   padding: 0 0.5rem;
   cursor: pointer;
   outline: none;
@@ -111,7 +111,7 @@ ul.currencies li .drops{
     color:#00b386;
     position: absolute;
     bottom: 0;
-    right: -24px;
+    right: -5px;
     padding: 0 0.5rem;
     cursor: pointer;
     outline: none;
@@ -199,4 +199,12 @@ ul.currencies li .drops.open + ul.add-currency-list1{
 }
 #convert:hover{
   background-color: #d9534f;
+}
+@media screen and (max-width: 400px) {
+    .container{
+      width: 380px;
+    }
+    .container .middle {
+    margin-left: 135px;
+    }
 }

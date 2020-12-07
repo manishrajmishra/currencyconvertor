@@ -161,3 +161,8 @@ ul.add-currency-listbottom li span {
 .add-currency-btnbottom.open + ul.add-currency-listbottom li:hover {
   background-color: #ddd;
 }
+@media screen and (max-width: 400px) {
+    .containerbottom{
+      width: 380px;
+    }
+}
